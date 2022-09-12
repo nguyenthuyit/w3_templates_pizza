@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Amatic SC', cursive;
+    text-transform: uppercase;
+    scroll-behavior: smooth;
+}
+/*  */
+.text-white{
+    color: #fff;
+}
+.back-black{
+    background-color: #000;
+}
+.none{
+    display: none;
+}
+.back-red{
+    background-color: #f44336;
+}
+.pd-8{
+    padding: 0 8px;
+}
+.pd-64{
+    padding: 64px 16px;
+}
+.back-gray{
+    background-color: #ccc;
+}
+.back-blue{
+    background-color: #607d8b;
+}
+.font-36{
+    font-size: 3.6rem;
+}
+.font-24{
+    font-size: 2.4rem;
+}
+.mt-32{
+    margin-top: 32px;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
+.col-half{
+    width: 50%;
+}
+.nav-header{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 46px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+
+}
+.nav-header .nav-list {
+    display: flex;
+}
+.nav-header li{
+    list-style: none;
+}
+.nav-header li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 46px;
+    padding: 0 16px;
+    font-size: 2.4rem;
+    display: block;
+    text-transform: uppercase;
+}
+.nav-header li:hover a,
+.title-heading a:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+.header{
+    background: url(../img/pizza.jpg) center/ cover no-repeat;
+   padding-top: 50%;
+    filter: grayscale(50%);
+    position: relative;
+    min-height: 500px;
+    
+    
+}
+.header .title-heading{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title-heading h1{
+    font-size: 10rem;
+}
+.title-heading a{
+    text-decoration: none;
+    padding: 16px;
+}
+.header .time-open-heading{
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    font-size: 2.4rem;
+    
+}
+.time-open-heading p{
+    padding: 5px;
+}
+
+#content .the-menu,
+#content .the-about,
+#content .the-contact{
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 100%;
+    
+}
+#content .title-section-content{
+    font-size: 6.4rem;
+    text-align: center;
+    margin-bottom: 64px;
+    
+}
+.the-menu .menu-list{
+    border: 1px solid #ccc;
+}
+.menu-list .name-item-menu{
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+.the-menu .name-item-menu a{
+    text-decoration: none;
+    padding: 8px 0;
+}
+.the-menu .name-item-menu a:hover{
+    color: #f44336;
+}
+.the-menu .name-item-menu a.color-red{
+    color: #f44336 !important;
+}
+.the-menu .menu-item{
+    background-color: #fff;
+    padding:8px;
+    
+}
+.menu-item h3{
+    font-size: 3.6rem;
+    margin: 24px 0;
+    
+}
+.menu-item .price-item{
+    float: right;
+    background-color: #ccc;
+    padding: 0 8px;
+}
+.menu-item .text-item{
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+#content .about-content{
+    filter: grayscale(70%);
+}
+
+.text-about .img-text-about{
+    float: right;
+    width: 15rem !important;
+    border-radius: 50%;
+    margin-bottom: 48px;
+}
+
+.the-about .day-time-list{
+    display: flex; 
+}
+#content img{
+    filter: grayscale(70%);
+    width: 100%;
+    vertical-align: middle;
+}
+#content .contact-content{
+    filter: grayscale(50%);
+}
+.the-contact .form-control{
+    width: 100%;
+    padding: 16px;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-family:'Amatic SC', cursive; ;
+    border: none;
+    margin-bottom: 16px;
+}
+#footer{
+    text-align: center;
+
+}
