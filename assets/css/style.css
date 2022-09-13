@@ -114,6 +114,12 @@ html{
 .time-open-heading p{
     padding: 5px;
 }
+.header .icon{
+    position: absolute;
+    top: 0;
+    padding: 16px;
+    display: none;
+}
 
 #content .the-menu,
 #content .the-about,

@@ -7,6 +7,7 @@
     <title>Templates Pizza</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font-icon/themify-icons/themify-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,7 @@
 </head>
 <body>
     <!-- nav -->
-    <nav class="nav-header dis-none">
+    <nav id="nav" class="nav-header">
         <ul class="nav-list">
             <li><a href="#head">Home</a></li>
             <li><a href="#menu">Menu</a></li>
@@ -31,6 +32,7 @@
         <div class="time-open-heading">
             <p class="text-white back-black">Open from 10am to 12pm </p>
         </div>
+        <i id="icon-mobile" class="icon ti-menu text-white font-24" onclick="openNav()"></i>
     </header>
     <div id="content">
         <!-- menu -->

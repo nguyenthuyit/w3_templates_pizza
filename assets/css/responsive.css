@@ -9,7 +9,17 @@
     
 }
 @media(max-width: 739px){
-    .dis-none{
+    
+    .header .icon{
+        display: block;
+    }
+    .nav-header{
+        width: 100px;
+        height: unset;
         display: none;
     }
+    .nav-header .nav-list{
+        flex-direction: column;
+    }
+
 }
